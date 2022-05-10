@@ -48,14 +48,15 @@ Range (R) - R0 to R12 (see manual 3-19)
 Zero Check (C) - C0/C1
 Zero Correct (Z) - Z0/Z1
 Suppress (N) - N0/N1
-Trigger (T) - T0 to T7 (see manual 3-19)
+Trigger (T) - T0 to T7 (see manual 3-20)
 Voltage Source Operate (O) - O0/O1
 Read Mode (B) - B0 to B4 (see manual 3-19)
 Display Mode (D) - D0/D1 (Electrometer/Voltage Source)
 Data Storage (Q) - Q0 to Q7 (see manual 3-19)
-SRQ Mode (M) - M0 to M32 (see manual 3-19)
-EOI and Bus Hold-off (K) - K0 to K3 (see manual 3-19)
-Terminator (Y) (see manual)
+SRQ Mode (M) - M0 to M32 (see manual 3-20)
+EOI and Bus Hold-off (K) - K0 to K3 (see manual 3-20)
+Terminator (Y) (see manual 3-20)
+[Some other commands in manual]
 ```
 
 Useful commands:
