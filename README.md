@@ -44,19 +44,18 @@ Command reference:
 
 ```
 Function (F) - F0 (Volts) F1 (Amps) F2 (Ohms) F3 (Coulombs) F4 (External Feedback) F5 (V/I Ohms)
-Range (R) - R0 to R12 (see manual)
+Range (R) - R0 to R12 (see manual 3-19)
 Zero Check (C) - C0/C1
 Zero Correct (Z) - Z0/Z1
 Suppress (N) - N0/N1
-Trigger (T)
+Trigger (T) - T0 to T7 (see manual 3-19)
 Voltage Source Operate (O) - O0/O1
-Read Mode (B) - B0 to B4 (see manual)
-Display Mode (D)
-Data Storage (Q)
-SRQ Mode (M)
-EOI and Bus Hold-off (K)
-Terminator (Y)
-[Other commands in the manual such as voltage source value, data store mode, calibration]
+Read Mode (B) - B0 to B4 (see manual 3-19)
+Display Mode (D) - D0/D1 (Electrometer/Voltage Source)
+Data Storage (Q) - Q0 to Q7 (see manual 3-19)
+SRQ Mode (M) - M0 to M32 (see manual 3-19)
+EOI and Bus Hold-off (K) - K0 to K3 (see manual 3-19)
+Terminator (Y) (see manual)
 ```
 
 Useful commands:
