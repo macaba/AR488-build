@@ -43,7 +43,7 @@ F0X and F1X should generate some response from the device.
 Command reference:
 
 ```
-Function (F) - F0 (Volts) F1 (Amps) F2 (Ohms) F3 (Coulombs) F4 (External Feedback) F5 V/I Ohms
+Function (F) - F0 (Volts) F1 (Amps) F2 (Ohms) F3 (Coulombs) F4 (External Feedback) F5 (V/I Ohms)
 Range (R) - R0 to R12 (see manual)
 Zero Check (C) - C0/C1
 Zero Correct (Z) - Z0/Z1
