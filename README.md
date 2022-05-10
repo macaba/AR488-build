@@ -43,19 +43,20 @@ F0X and F1X should generate some response from the device.
 Command reference:
 
 ```
-Function (F)
-Range (R)
-Zero Check (C)
-Zero Correct (Z)
-Suppress (N)
+Function (F) - F0 (Volts) F1 (Amps) F2 (Ohms) F3 (Coulombs) F4 (External Feedback) F5 V/I Ohms
+Range (R) - R0 to R12 (see manual)
+Zero Check (C) - C0/C1
+Zero Correct (Z) - Z0/Z1
+Suppress (N) - N0/N1
 Trigger (T)
-Voltage Source Operate (O)
-Read Mode (B)
+Voltage Source Operate (O) - O0/O1
+Read Mode (B) - B0 to B4 (see manual)
 Display Mode (D)
 Data Storage (Q)
 SRQ Mode (M)
 EOI and Bus Hold-off (K)
 Terminator (Y)
+[Other commands in the manual such as voltage source value, data store mode, calibration]
 ```
 
 Useful commands:
