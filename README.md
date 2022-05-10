@@ -2,6 +2,11 @@
 
 Build of AR488 using Arduino Pro Micro & artag firmware.
 
+## Parts
+
+Amazon: "Pro Micro Atmega32U4 5V 16MHz Bootloadered IDE Micro USB Pro Micro Development Board Microcontroller Compatible with Pro Micro Serial Connection with Pin Header"
+SCSI plug: 111-024-113L001
+
 ## Download firmware
 
 Select "Arduino/Genuino Micro" as the board and short the RST/GND pins briefly during upload.
