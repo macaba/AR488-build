@@ -35,5 +35,5 @@ F0X and F1X should generate some response from the device.
 Useful commands:
 
 ```
-ClXZlXCOX - Zero check on, zero correct, zero check off
+ClXZlXC0X - Zero check on, zero correct, zero check off
 ```
