@@ -64,3 +64,39 @@ Useful commands:
 ```
 C1XZ1XC0X - Zero check on, zero correct, zero check off
 ```
+
+### Code
+
+```
+var devices = SerialDevices.Browse();
+if (devices.Count == 0)
+    Console.WriteLine("\tNone");
+string gpib = "";
+foreach (var device in devices)
+{
+    Console.WriteLine($"\t{device.InstanceName} - {device.PortName}");
+    if (device.PortName.Contains("Arduino Micro"))
+        gpib = device.InstanceName;
+}
+
+if (gpib == "")
+    Console.WriteLine("Did not find serial device");
+else
+{
+    var k617 = new SerialConnection(gpib, new SerialSettings(115200));
+    k617.Write("++addr 29\n");
+    k617.Write("++auto 0\n");
+    k617.Write("C1XZ1XC0X\n");
+    k617.Write("T5F1R0N0D0B0Q7O0G1X\n");
+    k617.Write("++auto 1\n");
+
+    while (!Console.KeyAvailable)
+    {
+        k617.Write("X\n");
+        if (k617.TryReadBytes(3000, out var data))
+        {
+            Console.WriteLine(Encoding.ASCII.GetString(data));
+        }
+    }
+}
+```
