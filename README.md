@@ -22,6 +22,8 @@ SCSI plug: 111-024-113L001
 
 ## Download firmware
 
+Using Arduino IDE (tested on 1.8.7)
+
 Select "Arduino/Genuino Micro" as the board and short the RST/GND pins briefly during upload.
 
 ## Keithley 617
