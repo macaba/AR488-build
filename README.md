@@ -30,4 +30,10 @@ F0X
 F1X
 ```
 
-F0 and F1 should generate some response from the device.
+F0X and F1X should generate some response from the device.
+
+Useful commands:
+
+```
+ClXZlXCOX - Zero check on, zero correct, zero check off
+```
