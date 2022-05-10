@@ -8,7 +8,11 @@ Main repo: https://github.com/Twilight-Logic/AR488
 
 Gerbers: https://www.eevblog.com/forum/projects/ar488-arduino-based-gpib-adapter/msg3362552/#msg3362552
 
+(Mirrored in this repo)
+
 Firmware: https://github.com/Twilight-Logic/AR488/tree/master/Contributed/artag
+
+(Mirrored in this repo)
 
 ## Parts
 
