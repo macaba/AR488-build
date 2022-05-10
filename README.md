@@ -2,6 +2,8 @@
 
 Build of AR488 using Arduino Pro Micro & artag firmware.
 
+Main repo: https://github.com/Twilight-Logic/AR488
+
 ## Parts
 
 Amazon: "Pro Micro Atmega32U4 5V 16MHz Bootloadered IDE Micro USB Pro Micro Development Board Microcontroller Compatible with Pro Micro Serial Connection with Pin Header"
