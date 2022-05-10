@@ -26,8 +26,8 @@ Commands to talk interfactively using Putty (115200 baud)
 ++verbose
 ++addr 29
 ++auto 1
-F0
-F1
+F0X
+F1X
 ```
 
 F0 and F1 should generate some response from the device.
