@@ -40,6 +40,24 @@ F1X
 
 F0X and F1X should generate some response from the device.
 
+Command reference:
+
+```
+Function (F)
+Range (R)
+Zero Check (C)
+Zero Correct (Z)
+Suppress (N)
+Trigger (T)
+Voltage Source Operate (O)
+Read Mode (B)
+Display Mode (D)
+Data Storage (Q)
+SRQ Mode (M)
+EOI and Bus Hold-off (K)
+Terminator (Y)
+```
+
 Useful commands:
 
 ```
