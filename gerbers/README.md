@@ -1,0 +1,1 @@
+Source: https://www.eevblog.com/forum/projects/ar488-arduino-based-gpib-adapter/msg3362552/#msg3362552
