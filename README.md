@@ -62,5 +62,5 @@ Terminator (Y) (see manual 3-20)
 Useful commands:
 
 ```
-ClXZlXC0X - Zero check on, zero correct, zero check off
+C1XZ1XC0X - Zero check on, zero correct, zero check off
 ```
